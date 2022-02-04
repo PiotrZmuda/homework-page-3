@@ -1,0 +1,119 @@
+.wrapper{
+    display: flex;
+    margin: auto;
+}
+
+.login-section{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 19% 6%;
+}
+
+h1{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.06px;
+    color: #190F27;
+}
+
+.text{
+    font-family: Rubik;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #64606A;
+    margin: 2% 0%;
+}
+
+.input input{
+    width: 100%;
+    height: 56px;
+    border: 1px solid #EDEBF0;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-bottom: 8%;
+    font-family: Rubik;
+    font-size: 16px;
+    letter-spacing: -0.0571429px;
+    color: #190F27;
+    padding: 13px;
+}
+
+.input label{
+    padding: 0px 11px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    font-family: Rubik;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0.333333px;
+    color: #64606A;
+    padding: 4px;
+}
+
+
+
+a{
+    height: 50px;
+    left: 144px;
+    top: 558px;
+    background: #284642;
+    border-radius: 7px;
+}
+
+.button{
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-section{
+    width: 43%;
+}
+
+.image-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 1080px;
+    background-image: url(./images/image.png);
+    background-color: rgba(40, 70, 66, 0.75);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.group{
+    width: 30%;
+}
+
+/* Small devices (portrait tablets and large phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .image-section{
+        background-image: url(./images/image-mobile.png);
+        background-color: rgba(40, 70, 66, 0.75);
+        height: 253px;
+    }
+
+    .group{
+        max-width: 100%;
+        height: auto;
+    }
+}
