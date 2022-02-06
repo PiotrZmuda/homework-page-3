@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 .wrapper{
     display: flex;
     margin: auto;
@@ -101,20 +105,56 @@ a{
 
 /* Small devices (portrait tablets and large phones, 320px and down) */
 @media only screen and (max-width: 320px) {
+    
+    
     .wrapper{
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .login-section{
+        width: 76%;
+        display: flex;
+        flex-direction: column;
+        padding: 6% 12%;
+    }
+
+    h1{
+        font-size: 24px;
+        line-height: 28px;
     }
 
     .image-section{
         background-image: url(./images/image-mobile.png);
         background-color: rgba(40, 70, 66, 0.75);
         height: 253px;
+        width: 100%;
+    }
+
+    .group img{
+        width: 127%;
     }
 
     .group{
-        max-width: 100%;
-        height: auto;
-        width: 30%;
+        padding-right: 49%;
+    }
+
+    .text{
+        font-size: 14px;
+        line-height: 22px;
+        margin: -4% 0%;
+    }
+
+    .text span{
+        display: none;
+    }
+
+    .text::after{
+           content: 'Podaj swój adres e-mail. Well look for your accont and send you a password reset email.';
+    }
+
+    .button{
+        font-size: 14px;
+        line-height: 20px;
     }
 }
