@@ -100,7 +100,12 @@ a{
 }
 
 .group{
-    width: 30%;
+    width: 52%;
+}
+
+.group img{
+        max-width: 100%;
+        height: auto;
 }
 
 /* Small devices (portrait tablets and large phones, 320px and down) */
@@ -137,6 +142,7 @@ a{
 
     .group{
         padding-right: 49%;
+        width: 38%;
     }
 
     .text{
