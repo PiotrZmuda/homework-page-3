@@ -126,7 +126,7 @@ a{
 
     .image-section{
         background-image: url(./images/image-mobile.png);
-        background-color: rgba(40, 70, 66, 0.75);
+        background-color: rgba(40, 70, 66, 0.6);
         height: 253px;
         width: 100%;
     }
@@ -151,6 +151,16 @@ a{
 
     .text::after{
            content: 'Podaj swój adres e-mail. Well look for your accont and send you a password reset email.';
+    }
+
+    .input{
+        margin-top: 8px;
+        margin-bottom: 2px;
+    }
+
+    .input label{
+        position: relative;
+        top: 7px;
     }
 
     .button{
