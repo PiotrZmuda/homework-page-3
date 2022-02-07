@@ -156,7 +156,7 @@ a{
     }
 
     .text::after{
-           content: 'Podaj swój adres e-mail. Well look for your accont and send you a password reset email.';
+           content: "Podaj swój adres e-mail. We'll look for your accont and send you a password reset email.";
     }
 
     .input{
